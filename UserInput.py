@@ -15,6 +15,7 @@ str()
 int()
 float()
 bool()
+complex()
 
 """
 
@@ -43,10 +44,18 @@ bool()
 # b=56.47
 # b=89
 # b=-67
-b=0
-print(b,type(b))
-b=bool(b)
-print(b,type(b))
+# b=0
+# print(b,type(b))
+# b=bool(b)
+# print(b,type(b))
+
+
+a=6
+c=45
+# b=complex(a)
+b=complex(a,c)
+print(a,b)
+print(type(a) ,type(b))
 
 
 

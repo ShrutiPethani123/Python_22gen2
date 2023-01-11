@@ -1,4 +1,4 @@
-print("Good Morning",end="\n")
+print("Good Morning",end=" ")
 print("Royal!!!")
 print("Good Morning",end=" Royal")
 print(" Technosoft")

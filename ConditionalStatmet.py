@@ -13,7 +13,7 @@ else if ladder
 
 '''
 
-a=int(input("Enter a no: "))
+# a=int(input("Enter a no: "))
 
 # if a>0:
 #     if a>50:
@@ -94,21 +94,64 @@ n= 1593
 
     cost price (in Rs)       Tax
     >100000                  15%
-    >50000and <=100000       10%
+    >50000 and <=100000       10%
     <=50000                   5% 
 
     print total amount need to paid.
 
+13. Write a program to input electricity unit charge and calculate the total 
+	electricity bill according to the given condition:
+
+	For first 50 units Rs. 0.50/unit
+	For next 100 units Rs. 0.75/unit
+	For next 100 units Rs. 1.20/unit
+	For unit above 250 Rs. 1.50/unit
+
+    -> unit = 30
+    bill = 15
+
+    -> unit=120
+    bill = 
+    50-0.50 = 25
+    70 - 0.75 = 52.5
+    bill = 77.5
+
+    -> 300
+
+    50 - 0.50 = 25
+    100 - 0.75 = 75
+    100 - 1.20 = 120
+    50 - 1.50 = 75
+
+    bill 295
+
+
+
+
 
 '''
 
-n=int(input("Enter rs: "))
+# n=int(input("Enter rs: "))
 
-n2000=n//2000
-# n=n%2000
-n = n - n2000*2000
-n500=n//500
-n=n%500
+# n2000=n//2000
+# # n=n%2000
+# n = n - n2000*2000
+# n500=n//500
+# n=n%500
 
-print("2000->",n2000)
-print("500->",n500)
+# print("2000->",n2000)
+# print("500->",n500)
+
+
+unit=int(input("Enter unit: "))
+
+if unit<=50:
+    bill=unit*0.50
+elif unit<=150:
+    bill = 50*0.50 + (unit-50)*0.75
+elif unit<=250:
+    bill = 50*0.50 + 100*0.75 + (unit-150)*1.20
+else:
+    bill=50*0.50 + 100*0.75 + 100*1.20 + (unit-250)*1.50
+
+print("Total bill is: ",bill)

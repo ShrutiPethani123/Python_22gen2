@@ -71,6 +71,8 @@ range:
 
 7. Take 10 number from user and print that number if number divide by 7 than stop to taking the number. 
 
+8. Take 7 number form user and print that number . if number is divisible by 11 then that number will not display
+
 
 '''
 
@@ -84,7 +86,7 @@ range:
 
 # for i in list: 
 #     if(i=='three'):
-#         continue
+#         break
 #     print(i)
 # else:
 #     print("Completed")
@@ -102,8 +104,15 @@ range:
 # else:
 #     print(n,"is not prime")
 
-for i in range(10):
-    n=int(input("Enter a no: "))
-    if(n%7==0):
-        break
+# for i in range(10):
+#     n=int(input("Enter a no: "))
+#     if(n%7==0):
+#         break
+#     print(n)
+
+for i in range(7):
+    n= int(input("Enter a no:"))
+
+    if n%11==0:
+        continue
     print(n)

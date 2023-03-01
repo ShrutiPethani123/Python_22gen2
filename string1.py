@@ -9,6 +9,14 @@ print(type(str)) #<class 'str'>
 s = "Good Morning"
 #    0123456789 10 11
 #    -12 -11 -10 .... -1
+'''
+index:
+
++ve
+-Ve
+
+
+'''
 
 # print(s[0])
 # print(s[4])
@@ -33,6 +41,7 @@ s = "Good Morning"
 #    0123456789 10 11
 #    -12 -11 -10 .... -1
 
+'''
 print(s[1:3])
 print(s[2:9])
 print(s[3:])
@@ -53,3 +62,25 @@ print(rev)
 
 print(s[2:-4])
 # print(s[2:-4:-1])
+
+'''
+
+str = "India is the Bes tCountry"
+#      012345678910 .          24
+print(str[6:10]) #is t
+print(str[2:9:4]) #2 6 di
+print(str[3:7:-1]) # none
+print(str[-3:-9])  #none
+print(str[3:-2]) # ia is the Best Count
+print(len(str)) #25
+
+print(str[-4:-9:-1])
+print(str[3:-2:-1])
+print(str)
+
+# String objects are immutable.
+
+
+
+
+

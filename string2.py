@@ -141,4 +141,13 @@ Task:
     s - pythons
     o/p - phn
 
+2. 
+
+str = " Good Morning"
+o/p= **********Good Morning%%%%%%%%%%%%%%% (only using ljust and rjust)
+
 '''
+
+str = " Good Morning"
+s1=str.rjust(22,"*").ljust(37,"%")
+print(s1)

@@ -1,3 +1,4 @@
+
 '''
 string:  ' ' or " " - ordered and immutable
 list: [] - ordered and mutable
@@ -25,7 +26,8 @@ print(l3[1:])
 print(l3[-1:-3]) # []
 print(l3[-1:-3:-1])
 print(l3[2:-1])
-print(l3[2:-2])
+print(l3[:67])
+
 
 l1 = ['apple','kiwi','Mango','banana','orange']
 print(l1)

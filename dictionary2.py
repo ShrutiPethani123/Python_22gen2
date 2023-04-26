@@ -71,3 +71,15 @@ d={
 find maximum and minimum values from dictionary.
 
 '''
+d={
+
+    1:100,
+    2:200,
+    3:45,
+    5:67,
+    8:20
+}
+
+print(max(d.values()))
+print(min(d.values()))
+
